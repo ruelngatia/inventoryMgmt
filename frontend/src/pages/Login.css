@@ -1,0 +1,91 @@
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .column-left{
+    width: 25%; 
+    margin-top: 3rem; 
+}
+
+.login .column-right{
+    width: 30%;  
+}
+
+.login .login-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .login-icon span{
+    color: #1570ef;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.login .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:.5em
+}
+
+.login .form input{
+    margin-bottom: 1.5em;
+    outline: none;
+    border: 1px solid grey;
+    padding-left: .4em;
+    border-radius: 4px;
+}
+
+.login .form .common-width{
+    width: 300px;
+    height: 30px;
+}
+
+.login .form .sp-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.login .form .sp-sub-title{
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.login label{
+    font-size: .8rem;
+}
+
+.login .form .block .check-remember input{
+   margin-right: .2em; 
+}
+
+.login .form .block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login .form-inputs p{
+    margin-top: 1em;
+    font-size: .9rem;
+}
+
+.login .form-inputs .btn{
+    margin-bottom: .5em;
+    background-color: #1570ef;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.login .form-inputs .btn-google{
+    background-color:  white;
+    border: 1px solid #989fad;
+    color: black;
+} 
